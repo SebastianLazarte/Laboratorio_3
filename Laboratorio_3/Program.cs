@@ -17,7 +17,7 @@ namespace Laboratorio_3
             Console.WriteLine("Deliver cash amount:" + excellence.ExtraCash(600) + "$\n");
 
             ICard platinum = factory.GetCard("Platinum");
-            platinum.Credit(2000);
+            platinum.Credit(2100);
 
         }
     }
